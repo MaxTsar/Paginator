@@ -13,7 +13,6 @@ export default class Two extends React.Component {
     }
 
     render() {
-        console.log(this.props.match.params.page)
         return (<section>
                     <ul>
                         <li>
