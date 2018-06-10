@@ -16,9 +16,15 @@ export default class Two extends React.Component {
         console.log(this.props.match.params.page)
         return (<section>
                     <ul>
-                        <li><NavLink to='/two/1'>{+this.props.match.params.page}</NavLink></li>
-                        <li><NavLink to='/two/2'>{+this.props.match.params.page + 1}</NavLink></li>
-                        <li><NavLink to='/two/3'>{+this.props.match.params.page + 2}</NavLink></li>
+                        <li>
+                            <NavLink to='/two/1'>{+this.props.match.params.page}</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/two/2'>{+this.props.match.params.page + 1}</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/two/3'>{+this.props.match.params.page + 2}</NavLink>
+                        </li>
                     </ul>
                     <ul>
                         {
